@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Host+Grotesk:wght@300;400;800&family=Inter:ital,wght@0,300;0,800;1,300;1,800&family=Montserrat:ital,wght@0,100;0,900;1,100;1,900&family=Nosifer&family=Rubik:ital,wght@0,300;0,900;1,300;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Host Grotesk", sans-serif;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.title {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 42px;
+  color: rgba(45, 45, 45, 0.9);
+  text-transform: capitalize;
+}
+
+.input-wrapper {
+  border-radius: 10px;
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+  max-width: 100%;
+  width: 100%;
+  background-color: rgb(224, 224, 224);
+}
+
+.input-wrapper input {
+  font-family: "Host Grotesk", sans-serif;
+  width: 80%;
+  padding: 10px;
+  outline: none;
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+}
+
+.input-wrapper button {
+  height: 50px;
+  width: 150px;
+  border-radius: 10px;
+  border: none;
+  background-color: red;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.input-wrapper button:active {
+  transform: scale(0.9);
+}
+
+.image-container {
+  margin: 30px 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.image-container p {
+  font-size: 22px;
+  color: rgb(164, 87, 136);
+}
+
+img {
+  width: calc(25% - 20px);
+  height: 200px;
+  border-radius: 20px;
+  object-fit: cover;
+}
